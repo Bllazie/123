@@ -1,0 +1,678 @@
+body{
+    font-family: montserrat,Arial,serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.header-line{
+    display: flex;
+}
+.nav-item {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.nav-items{
+    font-size: 9px;
+}
+
+
+
+.nav-item:hover{
+    transition: color 0.3s linear;
+    background-color: rgba(128, 128, 128, 0.14);
+    color:black;
+    border-radius: 5px;
+}
+.nav{
+    margin-top:10px;
+}
+
+.number-phone{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    margin-right: 170px;
+    margin-top: 15px;
+    margin-left: 15px ;
+}
+
+.number-phone:hover{
+    transition: color 0.3s linear;
+    background-color: rgba(128, 128, 128, 0.14);
+    color:black;
+    border-radius: 5px;
+}
+
+
+.logo{
+    margin-right: 160px;
+    margin-top: 15px;
+}
+.right-icon{
+
+    margin-left: 20px;
+    margin-top: 15px;
+    color: grey;
+    text-decoration: none;
+}
+.right-icon:hover{
+    transition: color 0.3s linear;
+    background-color: rgba(128, 128, 128, 0.14);
+    color:black;
+    border-radius: 5px;
+}
+.two-header-line{
+    margin-left: 24px;
+}
+
+.premium{
+    text-decoration: none;
+    color: black;
+}
+
+.premium:hover{
+    color: black;
+}
+/* 2 stroka */
+
+
+.sklv-input{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 458px;
+    height: 40px;
+    border-radius: 8px;
+}
+.sklv-input:hover{
+    border-color: blue;
+}
+
+.sergi{
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+
+.home{
+    color: black;
+}
+.photo{
+    color:black;
+    text-decoration: none;
+    margin-left: 535px;
+}
+
+.SELLS{
+
+    text-decoration: none;
+    color: white;
+}
+.SELLS:hover{
+    color: white;
+
+}
+.stock{
+    margin-top: 18px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.stock:hover{
+
+    background-color: rgba(128, 128, 128, 0.14);
+    color:black;
+    border-radius: 5px;
+
+}
+.gift{
+    position: absolute;
+    text-decoration: none;
+    margin-left:120px;
+    margin-top: 18px;
+    color: black;
+}
+.gift:hover{
+    background-color: rgba(128, 128, 128, 0.14);
+    color:black;
+    border-radius: 5px;
+
+}
+.photo-top {
+    display: flex;
+    height: 30px;
+    width: 680px;
+
+}
+.similar{
+    text-decoration: none;
+    color:black;
+
+}
+.similar:hover{
+    color:grey;
+}
+.share{
+    color:grey;
+    margin-left: 10px;
+    height: 15px;
+}
+share:hover{
+    color:black;
+}
+.heart{
+    color:black;
+    margin-left: 10px;
+    height: 15px;
+    margin-right: 50px;
+
+}
+.heart:hover{
+    color:blue
+}
+.mini-photo{
+    display: flex;
+    flex-flow: column wrap;
+    width: 800px;
+
+}
+
+.img_1{
+    width: 50px;
+
+}
+.video_1{
+    margin-left: 22px;
+    width: 60px;
+
+}
+.up-icon{
+    margin-left: 22px;
+    text-decoration: none;
+    color:grey;
+
+}
+.up-icon:hover{
+    color:black;
+}
+.down-icon{
+    margin-left: 22px;
+    text-decoration: none;
+    color:grey;
+}
+.down-icon:hover{
+    color:black
+}
+.star{
+    margin-right: 10px;
+    color:goldenrod;
+}
+.star:hover{
+    color:goldenrod;
+}
+.articul{
+    text-decoration: none;
+    color: black;
+
+
+    font-weight: 300;
+}
+.articul:hover{
+    color:black
+}
+.under_articul{
+
+    text-decoration: none;
+    color: limegreen;
+    background-color: rgba(0, 128, 0, 0.14);
+    border-radius: 5px;
+    font-size: 11px;
+}
+.under_articul:hover{
+    color: limegreen;
+}
+.ESHO{
+    width: 500px;
+}
+
+.right_articul{
+
+    text-decoration: none;
+    color:black;
+
+    font-weight: 300;
+    font-size:11px;
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 5px;
+}
+.right_articul:hover{
+    color: black;
+}
+.easy_back{
+    text-decoration: none;
+    color: black;
+
+    font-size: 11px;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 5px;
+}
+.easy_back:hover{
+    color:black;
+}
+.free_delivery{
+
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 5px;
+
+}
+.free_delivery:hover{
+    color: black;
+}
+.fitting{
+
+    text-decoration: none;
+    color: black;
+
+    font-size: 11px;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 5px;
+}
+.fitting:hover{
+    color:black;
+}
+.material{
+
+    text-decoration: none;
+    font-weight: 200;
+    color: grey;
+
+}
+.material:hover{
+    color:grey;
+}
+
+
+.material_to4ki:hover{
+    color:black;
+
+}
+.white_gold{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.white_gold:hover{
+    color: black;
+}
+
+.price-place{
+    width: 313px;
+    margin-left: 130px;
+
+}
+.Main_price_big{
+    display: flex;
+}
+.or_another_price{
+    color:grey;
+}
+.skidka_price-big{
+    font-weight: 400;
+}
+.or_another_price:hover{
+    color: black;
+}
+.add_in_cart{
+    width: 313px;
+    height: 50px;
+
+}
+.delivery_place{
+    margin-top: 20px;
+
+}
+.Delivery{
+    text-decoration: none;
+    color: brown;
+}
+.Delivery:hover{
+    color:brown;
+}
+.Pencil{
+    color:grey;
+}
+.Pencil:hover{
+    color:black
+}
+.City{
+    color:brown;
+}
+.City:hover{
+    color: brown;
+}
+.Take_in_shop{
+    margin-top: 15px;
+}
+.take_in_shop{
+    margin-left: 10px;
+    text-decoration: none;
+    color:brown;
+}
+.take_in_shop:hover{
+    color:brown;
+    text-decoration-line:underline;
+}
+.in_one_hour{
+    margin-left: 30px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.in_one_hour:hover{
+    color: cornflowerblue;
+}
+.in_5_shops{
+    margin-left: 30px;
+    color: red;
+    font-weight: 400;
+    text-decoration: none;
+}
+.in_5_shops{
+    color:red;
+}
+.ECKSPRESS{
+    margin-top: 10px;
+}
+
+.strelo4ka{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:grey;
+    font-weight: 800;
+}
+.eckspress{
+    margin-left: 10px;
+    text-decoration: none;
+    color:brown;
+}
+.eckspress:hover{
+    text-decoration: underline;
+    color:brown;
+}
+.FOR_3_HOURS{
+
+    margin-left: 30px;
+}
+.for_3_hours{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.for_3_hours:hover{
+
+    color: cornflowerblue;
+}
+.GET_IN_PLACE{
+    margin-top: 10px;
+}
+
+
+.get_in_place{
+    margin-left: 10px;
+    text-decoration: none;
+    color:brown;
+}
+.get_in_place:hover{
+    text-decoration: underline;
+    color:brown;
+}
+.DATA{
+    margin-left: 30px;
+}
+.data{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.data:hover{
+
+    color: cornflowerblue;
+}
+.price-big{
+    font-size: 25px;
+}
+.Main_price{
+    float: left;
+}
+
+.mini-photo{
+    margin-left: 5px;
+    width:700px;
+    float: left;
+}
+
+
+.first_place{
+    float: left;
+    display: flex;
+
+}
+.backdoor{
+    float: left;
+}
+
+.center-center{
+    margin-left: 70px;
+}
+
+.aboba{
+
+    float: left;
+}
+.STARS{
+    display: flex;
+}
+.material_to4ki{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+.material_to4ki:hover{
+    color:black;
+}
+.ONE_MORE{
+    margin-left: 243px;
+}
+.go_in_full{
+    font-weight: 500;
+}
+.real_haracter{
+    font-weight: 400;
+    color:grey;
+    font-size: 14px;
+}
+.REAL_HARACTER{
+    margin-top: 10px;
+}
+.other_options{
+    font-size: 15px;
+}
+.asoa{
+    width: 50px;
+}
+
+.name{
+    color: black;
+    text-decoration: none;
+}
+.name:hover{
+    color: black;
+}
+.esho{
+
+    text-decoration: none;
+    background-color:darkblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.esho:hover{
+    color: white;
+}
+.strelo4ka-levo{
+    text-decoration: none;
+    color:grey;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.PHOTO_PANEL{
+    margin-top:50px;
+}
+
+.img_main{
+    width: 100px;
+}
+.BUTTON_PHOTO{
+    width: 70px;
+}
+.main-photo{
+    width: 550px;
+}
+.MAIN_PHOTO{
+    position: absolute;
+    margin-left: 100px;
+    width: 550px;
+    height: 550px;
+
+}
+.PHOTO_CLIENTS{
+    width: 600px;
+}
+.photo-clients{
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.photo_clients_button{
+    display: flex;
+
+}
+.img_3{
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.Opisanie_haracter{
+    margin-top: 100px;
+    display: flex;
+
+}
+.Text_1{
+    text-decoration: none;
+    margin-right: 30px;
+    color:black;
+    display: flex;
+    font-size:16px;
+}
+.Text_1:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: black;
+
+}
+.character{
+    margin-top: 50px;
+    font-size: 16px;
+
+
+}
+.ARticul{
+    display: flex;
+
+}
+.TYPE_METAL{
+    display: flex;
+}
+.text_left{
+    color: grey;
+    font-weight: 400;
+}
+.text_left_2{
+    color: grey;
+    font-weight: 400;
+}
+.text_right{
+    font-weight: 500;
+}
+.text_right2{
+    font-weight: 500;
+    font-size: 16px;
+}
+.text_left_3{
+    color: grey;
+    font-weight: 400;
+}
+.women{
+    text-decoration: underline;
+}
+.question{
+    text-decoration: none;
+    color: black;
+}
+.General_characteristics{
+    background-color:white;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px grey solid;
+}
+.general_characteristics{
+    font-weight: 700;
+    font-size: 14px;
+}
+.MATERIAL_Tabl{
+    width: 200px;
+    border-radius: 8px;
+    border: 1px grey solid;
+}
+.First_tabl{
+    width:1500px;
+}
+.ABARMOT{
+    display: flex;
+}
+.MATERIAL_Tabl{
+    margin-left: 50px;
+}
+.BRILLIANT{
+    margin-left: 50px;
+    border: 1px grey solid;
+    border-radius: 8px;
+    width: 200px;
+
+}
+.TYPE_BRILLIANT{
+    display: flex;
+
+}
+.BRILLIANT_16{
+    margin-left: 50px;
+    border: 1px grey solid;
+    border-radius: 8px;
+    width: 200px;
+}
+.TYPE_BRILLIANT_16{
+    display: flex;
+}
+
