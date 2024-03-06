@@ -1,5 +1,4 @@
 <?php
-require_once 'head.php';
 require_once 'header.php';
 require_once 'TableModule.php';
 
@@ -17,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_id'])) {
 
 $material_id  = isset($_GET['material_id']) ? $_GET['material_id'] : null;
 
-$earringsInv = ($material_id  !== null) ? $earringsModule->getAllByFilter("id_material = ?", [$material_id]) :$earringsModule->getAll();
+$earringsInv = ($material_id !== null) ? $earringsModule->getAllByFilter("material = ?", [$material_id]) : $earringsModule->getAll();
 
 ?>
 

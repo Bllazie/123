@@ -1,5 +1,4 @@
 <?php
-require_once 'head.php';
 require_once 'header.php';
 require_once 'TableModule.php';
 
@@ -33,8 +32,10 @@ $materials = $materialModule->getAll();
             <tr>
                 <th scope="row"><?php echo intval($material['id']); ?></th>
 
-                <td><a href="earrings_list.php?materials_id=<?php echo intval($material['id']); ?>"><?php echo htmlspecialchars($material['material_name']); ?></a></td>
+                <td><a href="earrings_list.php?material_id=<?php echo intval($material['id']); ?>"><?php echo htmlspecialchars($material['material_name']); ?></a></td>
 
+                <!--<td><a href="earrings_list.php?materials_id=<?php /*echo intval($material['id']); */?>"><?php /*echo htmlspecialchars($material['material_name']); */?></a></td>
+                -->
 
                 <td>
                     <a href="add_material.php" class="btn btn-primary">Изменить</a>
